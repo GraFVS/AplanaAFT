@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1506300716929" stop="1506300833312" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Command line suite : Command line test</name>
+    <title>Command line suite : Command line test</title>
+    <test-cases>
+        <test-case start="1506300719930" stop="1506300831811" status="passed">
+            <name>Test</name>
+            <description>Тест на ozon.ru</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Command line suite"/>
+                <label name="testGroup" value="Command line test"/>
+                <label name="testClass" value="OzonTest"/>
+                <label name="testMethod" value="Test"/>
+                <label name="host" value="GraFVS"/>
+                <label name="thread" value="1720@GraFVS.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

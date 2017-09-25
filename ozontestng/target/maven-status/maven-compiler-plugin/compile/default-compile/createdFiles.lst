@@ -1,0 +1,5 @@
+pages\BasePage.class
+pages\SearchResultsPage.class
+util\TestProperties.class
+pages\CartPage.class
+pages\MainPage.class

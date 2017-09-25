@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="116366" started-at="2017-09-25T00:51:56Z" finished-at="2017-09-25T00:53:53Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="116366" started-at="2017-09-25T00:51:56Z" finished-at="2017-09-25T00:53:53Z">
+      <class name="OzonTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:OzonTest@735b478]" name="setUp" is-config="true" duration-ms="2949" started-at="2017-09-25T03:51:56Z" finished-at="2017-09-25T03:51:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:OzonTest@735b478]" name="Test" duration-ms="111919" started-at="2017-09-25T03:51:59Z" description="Тест на ozon.ru" finished-at="2017-09-25T03:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:OzonTest@735b478]" name="tearDown" is-config="true" duration-ms="1473" started-at="2017-09-25T03:53:51Z" finished-at="2017-09-25T03:53:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- OzonTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
