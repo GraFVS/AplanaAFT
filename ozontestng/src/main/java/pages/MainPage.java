@@ -12,10 +12,10 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.stalenessOf;
 
 public class MainPage extends BasePage{
 
-    @FindBy(css = "span.ePanelLinks_Label")
+    @FindBy(xpath = "//*[contains(text(),'Мой OZON')]")
     WebElement myOzonButton;
 
-    @FindBy(xpath = "//div[@id='PageHeader_ctl08_SearchPanel']/div[3]/div/div/div[2]/div[2]/div[4]")
+    @FindBy(xpath = "//div[contains(text(),'Вход')]")
     WebElement signInOutButton;
 
     @FindBy(name = "login")
@@ -42,6 +42,8 @@ public class MainPage extends BasePage{
     public void logInOzon(String userLogin, String userPassword) {
         Wait<WebDriver> wait = new WebDriverWait(driver, 2, 5000);
         myOzonButton.click();
+        myOzonButton.click();
+        wait.until(ExpectedConditions.visibilityOf(signInOutButton));
         signInOutButton.click();
         fillField(login,userLogin);
         fillField(password,userPassword);
